@@ -9,13 +9,6 @@ there are the semaphores.
 
 it's important to change the parameters in /lib/parameters.h to match the size of your screen
 
-cars city driving processing application:\
-mkdir build\
-cd build\
-cmake ..\
-make\
-sudo ./application
-
 Extern Dependences:
 
 sudo apt-get install git\
@@ -24,9 +17,9 @@ sudo apt-get install cmake\
 sudo apt-get install liballegro4.2-dev\
 sudo apt-get install pkg-config
 
-//-------------------------------------------------------------------------------------
+//------------------------------------------------------------------
 
-Ptask:
+Installing ptask:
 
 git clone https://github.com/glipari/ptask.git \
 mkdir build\
@@ -44,3 +37,14 @@ make install
    tpt_provider.h
   endif()
 */
+
+//--------------------------------------------------------------------
+
+Starting the application:
+
+cars city driving processing application:\
+mkdir build\
+cd build\
+cmake ..\
+make\
+sudo ./application
