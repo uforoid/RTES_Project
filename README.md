@@ -9,7 +9,7 @@ there are the semaphores.
 
 it's important to change the parameters in /lib/parameters.h to match the size of your screen
 
-# Extern Dependences:
+### Extern Dependences:
 
 sudo apt-get install git\
 sudo apt-get install build-essential\
@@ -19,7 +19,7 @@ sudo apt-get install pkg-config
 
 --------------------------------------------------------------------------------------------
 
-# Installing ptask:
+### Installing ptask:
 
 git clone https://github.com/glipari/ptask.git \
 mkdir build\
@@ -38,9 +38,9 @@ make install
   endif()
 */
 
-//------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 
-# Starting the application:
+### Starting the application:
 
 cars city driving processing application:\
 mkdir build\
