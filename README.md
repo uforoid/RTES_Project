@@ -29,6 +29,7 @@ make\
 make install
 
 /* 
+
   _(PTASK ISSUE)_
   In order to compile and install ptask with allegro comment inside CMakeLists.txt the row
   add_subdirectory(examples)
@@ -36,6 +37,7 @@ make install
   if(TRACE)
    tpt_provider.h
   endif()
+
 */
 
 ------------------------------------------------------------------------------------------
