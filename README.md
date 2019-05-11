@@ -22,6 +22,7 @@ sudo apt-get install pkg-config
 ### Installing ptask:
 
 git clone https://github.com/glipari/ptask.git \
+cd ptask\
 mkdir build\
 cd build\
 cmake ..\
