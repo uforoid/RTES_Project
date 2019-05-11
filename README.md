@@ -5,7 +5,7 @@ exit the​ area. Each car is autonomous and is controlled by a periodic task ba
 local sensors.
 
 The city building blocks are green and in the middle of the street at the crossings
-there are the semaphores. The application can me exited with the ESC key
+there are the semaphores. The application can be exited with the ESC key
 
 it's important to change the parameters in /lib/parameters.h to match the size of your screen
 
